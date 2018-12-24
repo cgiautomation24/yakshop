@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite_YakShop" duration-ms="2382" started-at="2018-12-19T09:49:25Z" finished-at="2018-12-19T09:49:27Z">
+    <groups>
+    </groups>
+    <test name="TestServerStatus" duration-ms="1717" started-at="2018-12-19T09:49:25Z" finished-at="2018-12-19T09:49:27Z">
+      <class name="com.test.services.TestServerStatus">
+        <test-method status="PASS" signature="test_checkServerUP()[pri:0, instance:com.test.services.TestServerStatus@38d8f54a]" name="test_checkServerUP" duration-ms="1587" started-at="2018-12-19T09:49:25Z" description="Check Server Status" finished-at="2018-12-19T09:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_checkServerUP -->
+        <test-method status="PASS" signature="test_checkServerUP_withInvalidPath()[pri:1, instance:com.test.services.TestServerStatus@38d8f54a]" name="test_checkServerUP_withInvalidPath" duration-ms="79" started-at="2018-12-19T09:49:27Z" description="Check Server Status" finished-at="2018-12-19T09:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_checkServerUP_withInvalidPath -->
+      </class> <!-- com.test.services.TestServerStatus -->
+    </test> <!-- TestServerStatus -->
+    <test name="TestStock" duration-ms="327" started-at="2018-12-19T09:49:27Z" finished-at="2018-12-19T09:49:27Z">
+      <class name="com.test.services.TestStock">
+        <test-method status="PASS" signature="test_checkStock_day_1()[pri:0, instance:com.test.services.TestStock@77888435]" name="test_checkStock_day_1" duration-ms="101" started-at="2018-12-19T09:49:27Z" description="Stock availability for day 1" finished-at="2018-12-19T09:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_checkStock_day_1 -->
+        <test-method status="PASS" signature="test_checkStock_day_2()[pri:1, instance:com.test.services.TestStock@77888435]" name="test_checkStock_day_2" duration-ms="159" started-at="2018-12-19T09:49:27Z" description="Stock availability for day 2" finished-at="2018-12-19T09:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_checkStock_day_2 -->
+        <test-method status="PASS" signature="test_stock_reset()[pri:2, instance:com.test.services.TestStock@77888435]" name="test_stock_reset" duration-ms="21" started-at="2018-12-19T09:49:27Z" description="Stock reset" finished-at="2018-12-19T09:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_stock_reset -->
+        <test-method status="PASS" signature="test_stock_with_invalid_day()[pri:3, instance:com.test.services.TestStock@77888435]" name="test_stock_with_invalid_day" duration-ms="35" started-at="2018-12-19T09:49:27Z" description="Negative scenario - Test stock with invalid request" finished-at="2018-12-19T09:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_stock_with_invalid_day -->
+      </class> <!-- com.test.services.TestStock -->
+    </test> <!-- TestStock -->
+    <test name="TestOrder" duration-ms="124" started-at="2018-12-19T09:49:27Z" finished-at="2018-12-19T09:49:27Z">
+      <class name="com.test.services.TestOrder">
+        <test-method status="PASS" signature="test_order_milk_day_1()[pri:0, instance:com.test.services.TestOrder@1bb5a082]" name="test_order_milk_day_1" duration-ms="32" started-at="2018-12-19T09:49:27Z" description="Order Milk and Skins Day 1" finished-at="2018-12-19T09:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_order_milk_day_1 -->
+        <test-method status="PASS" signature="test_stock_availability_day_1()[pri:1, instance:com.test.services.TestOrder@1bb5a082]" name="test_stock_availability_day_1" duration-ms="22" started-at="2018-12-19T09:49:27Z" description="Stock availability after order" finished-at="2018-12-19T09:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_stock_availability_day_1 -->
+        <test-method status="PASS" signature="test_order_milk_day_2()[pri:2, instance:com.test.services.TestOrder@1bb5a082]" name="test_order_milk_day_2" duration-ms="14" started-at="2018-12-19T09:49:27Z" description="Order Milk and Skins Day 2" finished-at="2018-12-19T09:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_order_milk_day_2 -->
+        <test-method status="PASS" signature="test_stock_availability_day_2()[pri:3, instance:com.test.services.TestOrder@1bb5a082]" name="test_stock_availability_day_2" duration-ms="23" started-at="2018-12-19T09:49:27Z" description="Stock availability after order" finished-at="2018-12-19T09:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_stock_availability_day_2 -->
+        <test-method status="PASS" signature="test_stock_reset()[pri:4, instance:com.test.services.TestOrder@1bb5a082]" name="test_stock_reset" duration-ms="22" started-at="2018-12-19T09:49:27Z" description="Stock reset" finished-at="2018-12-19T09:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_stock_reset -->
+      </class> <!-- com.test.services.TestOrder -->
+    </test> <!-- TestOrder -->
+    <test name="TestHerd" duration-ms="91" started-at="2018-12-19T09:49:27Z" finished-at="2018-12-19T09:49:27Z">
+      <class name="com.test.services.TestHerd">
+        <test-method status="PASS" signature="begin()[pri:0, instance:com.test.services.TestHerd@5fe94a96]" name="begin" is-config="true" duration-ms="27" started-at="2018-12-19T09:49:25Z" finished-at="2018-12-19T09:49:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- begin -->
+        <test-method status="PASS" signature="test_herd_availability()[pri:0, instance:com.test.services.TestHerd@5fe94a96]" name="test_herd_availability" duration-ms="31" started-at="2018-12-19T09:49:27Z" description="Herd availability" finished-at="2018-12-19T09:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_herd_availability -->
+        <test-method status="PASS" signature="test_reloadHerd()[pri:1, instance:com.test.services.TestHerd@5fe94a96]" name="test_reloadHerd" duration-ms="23" started-at="2018-12-19T09:49:27Z" description="Herd Reload" finished-at="2018-12-19T09:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_reloadHerd -->
+        <test-method status="PASS" signature="test_herd_reset()[pri:2, instance:com.test.services.TestHerd@5fe94a96]" name="test_herd_reset" duration-ms="27" started-at="2018-12-19T09:49:27Z" description="Validate Reload" finished-at="2018-12-19T09:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_herd_reset -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.services.TestHerd@5fe94a96]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-12-19T09:49:28Z" finished-at="2018-12-19T09:49:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.services.TestHerd -->
+    </test> <!-- TestHerd -->
+  </suite> <!-- TestSuite_YakShop -->
+</testng-results>

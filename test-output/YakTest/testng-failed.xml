@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [YakTest]">
+  <test thread-count="5" verbose="2" name="TestOrder(failed)">
+    <classes>
+      <class name="com.test.services.TestOrder">
+        <methods>
+          <include name="test_stock_availability_day_2"/>
+          <include name="begin"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.test.services.TestOrder -->
+    </classes>
+  </test> <!-- TestOrder(failed) -->
+</suite> <!-- Failed suite [YakTest] -->

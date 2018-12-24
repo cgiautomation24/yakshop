@@ -1,0 +1,855 @@
+14:50:43,379 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@3b8507df{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:43,379 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@44d43cc9{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.235 s - in io.restassured.itest.java.ParserITest
+[INFO] Running io.restassured.itest.java.PatchITest
+14:50:43,410 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:50:43,488 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:50:43,488 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@2fb082ff{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:50:43,488 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@4609b0e4{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:43,504 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@5a4c98d7(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:50:43,504 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@526ba29f{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:43,504 [main]  INFO Server.doStart:397 - Started @41759ms
+14:50:43,754 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@4609b0e4{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:43,770 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@526ba29f{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:43,770 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@2fb082ff{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.36 s - in io.restassured.itest.java.PatchITest
+[INFO] Running io.restassured.itest.java.PathParamITest
+14:50:43,785 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:50:43,848 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:50:43,848 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@17b6ad97{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:50:43,864 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@5637ae40{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:43,864 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@44fb6ebd(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:50:43,864 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@5da57a64{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:43,879 [main]  INFO Server.doStart:397 - Started @42124ms
+14:50:46,330 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@5637ae40{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:46,341 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@5da57a64{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:46,344 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@17b6ad97{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 53, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.559 s - in io.restassured.itest.java.PathParamITest
+[INFO] Running io.restassured.itest.java.presentation.AdvancedValidationITest
+14:50:46,359 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:50:46,422 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:50:46,422 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@595fed99{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:50:46,422 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@7d522180{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:46,515 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@ff03361(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:50:46,515 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@790654d5{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:46,515 [main]  INFO Server.doStart:397 - Started @44766ms
+14:50:47,094 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@7d522180{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:47,094 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@790654d5{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:47,094 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@595fed99{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.75 s - in io.restassured.itest.java.presentation.AdvancedValidationITest
+[INFO] Running io.restassured.itest.java.presentation.CustomAuthDemoITest
+14:50:47,109 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:50:47,172 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:50:47,172 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@709d86a2{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:50:47,172 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@59baf2c7{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:47,187 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@ce655b9(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:50:47,187 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@4b85edeb{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:47,187 [main]  INFO Server.doStart:397 - Started @45436ms
+14:50:47,375 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@59baf2c7{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:47,375 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@4b85edeb{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:47,388 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@709d86a2{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.279 s - in io.restassured.itest.java.presentation.CustomAuthDemoITest
+[INFO] Running io.restassured.itest.java.presentation.MultiPartITest
+14:50:47,388 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:50:47,451 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:50:47,451 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@592a1882{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:50:47,451 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@48368a08{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:47,451 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@41a23470(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:50:47,451 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@30c01c37{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:47,451 [main]  INFO Server.doStart:397 - Started @45707ms
+14:50:47,911 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@48368a08{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:47,911 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@30c01c37{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:47,926 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@592a1882{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[WARNING] Tests run: 21, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.522 s - in io.restassured.itest.java.presentation.MultiPartITest
+[INFO] Running io.restassured.itest.java.presentation.PathArgumentsDemoITest
+14:50:47,926 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:50:48,004 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:50:48,004 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@38022758{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:50:48,004 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@3fc9ea29{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:48,020 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@69f9b561(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:50:48,020 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@28d3fd3a{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:48,020 [main]  INFO Server.doStart:397 - Started @46272ms
+14:50:48,098 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@3fc9ea29{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:48,098 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@28d3fd3a{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:48,114 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@38022758{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.172 s - in io.restassured.itest.java.presentation.PathArgumentsDemoITest
+[INFO] Running io.restassured.itest.java.presentation.SimplePathITest
+14:50:48,114 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:50:48,192 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:50:48,192 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@bb12f41{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:50:48,208 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@708dfe10{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:48,208 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@18989e0(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:50:48,208 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@2a120c88{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:48,208 [main]  INFO Server.doStart:397 - Started @46460ms
+14:50:48,317 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@708dfe10{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:48,317 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@2a120c88{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:48,333 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@bb12f41{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.204 s - in io.restassured.itest.java.presentation.SimplePathITest
+[INFO] Running io.restassured.itest.java.presentation.SimpleValidationITest
+14:50:48,348 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:50:48,411 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:50:48,421 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@6785c9fa{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:50:48,421 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@4a862abd{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:48,421 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@63cf578f(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:50:48,421 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@194b9783{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:48,421 [main]  INFO Server.doStart:397 - Started @46680ms
+14:50:48,546 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@4a862abd{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:48,546 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@194b9783{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:48,562 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@6785c9fa{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.214 s - in io.restassured.itest.java.presentation.SimpleValidationITest
+[INFO] Running io.restassured.itest.java.presentation.SpecificationsDemoITest
+14:50:48,562 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:50:48,640 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:50:48,640 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@25109608{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:50:48,640 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@3be7b77{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:48,640 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@1d637673(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:50:48,656 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@3a380635{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:48,656 [main]  INFO Server.doStart:397 - Started @46905ms
+14:50:48,843 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@3be7b77{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:48,843 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@3a380635{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:48,859 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@25109608{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.282 s - in io.restassured.itest.java.presentation.SpecificationsDemoITest
+[INFO] Running io.restassured.itest.java.ProxyAuthITest
+14:50:48,874 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:50:48,952 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:50:48,952 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@7d088813{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:50:48,952 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@3a205572{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:48,952 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@134abd78(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:50:48,968 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@7c8bd736{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:48,968 [main]  INFO Server.doStart:397 - Started @47223ms
+14:50:49,421 [main]  INFO SocketUDT.<clinit>:130 - library location : ./lib/bin
+14:50:49,421 [main]  INFO SocketUDT.<clinit>:134 - loader provider  : com.barchart.udt.lib.LibraryLoaderUDT
+14:50:49,427 [main]  INFO PluginPropsUDT.<clinit>:82 - ARCH/OS/LINK = amd64/Windows/gpp
+14:50:49,428 [main]  INFO LibraryLoaderUDT.load:39 - Platform supported.
+14:50:49,428 [main]  INFO LibraryLoaderUDT.load:49 - Loading release libraries.
+14:50:49,892 [main]  INFO LibraryLoaderUDT.load:51 - Release libraries loaded.
+14:50:50,017 [main]  INFO DefaultHttpProxyServer.start:275 - Starting proxy at address: /127.0.0.1:8888
+14:50:50,080 [main]  INFO DefaultHttpProxyServer.doStart:304 - Proxy listening with TCP transport
+14:50:51,220 [LittleProxy-ClientToProxyWorker-0]  INFO ClientToProxyConnection.authenticationRequired:833 - (AWAITING_PROXY_AUTHENTICATION) [id: 0x77b352a7, /127.0.0.1:57407 => /127.0.0.1:8888]: Got proxy authorization!
+14:50:51,236 [LittleProxy-ClientToProxyWorker-0]  INFO ClientToProxyConnection.authenticationRequired:837 - (AWAITING_PROXY_AUTHENTICATION) [id: 0x77b352a7, /127.0.0.1:57407 => /127.0.0.1:8888]: Basic YWRtaW46cGFzcw==
+14:50:51,285 [LittleProxy-ClientToProxyWorker-1]  INFO ClientToProxyConnection.authenticationRequired:833 - (AWAITING_PROXY_AUTHENTICATION) [id: 0x65af4a58, /127.0.0.1:57409 => /127.0.0.1:8888]: Got proxy authorization!
+14:50:51,285 [LittleProxy-ClientToProxyWorker-1]  INFO ClientToProxyConnection.authenticationRequired:837 - (AWAITING_PROXY_AUTHENTICATION) [id: 0x65af4a58, /127.0.0.1:57409 => /127.0.0.1:8888]: Basic YWRtaW46cGFzcw==
+14:50:51,347 [main]  INFO DefaultHttpProxyServer.stop:475 - Shutting down proxy
+14:50:51,347 [main]  INFO DefaultHttpProxyServer.stop:481 - Closing all channels...
+14:50:51,379 [main]  INFO DefaultHttpProxyServer.stop:499 - Shutting down event loops
+14:50:54,769 [main]  INFO DefaultHttpProxyServer.stop:518 - Done shutting down proxy
+14:50:54,775 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@3a205572{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:54,775 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@7c8bd736{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:54,775 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@7d088813{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[WARNING] Tests run: 4, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 5.901 s - in io.restassured.itest.java.ProxyAuthITest
+[INFO] Running io.restassured.itest.java.ProxyITest
+14:50:54,790 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:50:54,868 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:50:54,868 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@e06ec83{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:50:54,868 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@730485c8{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:54,884 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@628962e5(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:50:54,884 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@48f00f9c{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:54,884 [main]  INFO Server.doStart:397 - Started @53140ms
+14:50:54,915 [main]  INFO DefaultHttpProxyServer.start:275 - Starting proxy at address: /127.0.0.1:8888
+14:50:54,915 [main]  INFO DefaultHttpProxyServer.doStart:304 - Proxy listening with TCP transport
+14:50:56,201 [main]  INFO DefaultHttpProxyServer.stop:475 - Shutting down proxy
+14:50:56,201 [main]  INFO DefaultHttpProxyServer.stop:481 - Closing all channels...
+14:50:56,208 [main]  INFO DefaultHttpProxyServer.stop:499 - Shutting down event loops
+14:50:58,552 [main]  INFO DefaultHttpProxyServer.stop:518 - Done shutting down proxy
+14:50:58,555 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@730485c8{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:58,555 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@48f00f9c{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:58,555 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@e06ec83{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[WARNING] Tests run: 11, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 3.749 s - in io.restassured.itest.java.ProxyITest
+[INFO] Running io.restassured.itest.java.PutITest
+14:50:58,555 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:50:58,617 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:50:58,617 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@21abda60{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:50:58,617 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@dd20ebc{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:58,633 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@6c70b7c3(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:50:58,633 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@16a09809{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:58,633 [main]  INFO Server.doStart:397 - Started @56882ms
+14:50:58,789 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@dd20ebc{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:58,789 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@16a09809{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:58,805 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@21abda60{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.203 s - in io.restassured.itest.java.PutITest
+[INFO] Running io.restassured.itest.java.RedirectITest
+14:50:58,820 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:50:58,883 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:50:58,898 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@e72fb04{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:50:58,898 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@2ce3253b{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:58,930 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@1533338c(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:50:58,945 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@7c74dccf{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:58,945 [main]  INFO Server.doStart:397 - Started @57200ms
+14:50:59,133 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@2ce3253b{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:59,133 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@7c74dccf{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:59,133 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@e72fb04{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.297 s - in io.restassured.itest.java.RedirectITest
+[INFO] Running io.restassured.itest.java.RequestMethodITest
+14:50:59,149 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:50:59,211 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:50:59,211 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@213012a0{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:50:59,211 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@43a59289{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:59,211 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@6c2883b1(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:50:59,227 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@336e3be2{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:59,227 [main]  INFO Server.doStart:397 - Started @57475ms
+14:50:59,586 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@43a59289{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:59,587 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@336e3be2{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:59,588 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@213012a0{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.439 s - in io.restassured.itest.java.RequestMethodITest
+[INFO] Running io.restassured.itest.java.RequestSpecificationITest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.restassured.itest.java.RequestSpecificationITest
+[INFO] Running io.restassured.itest.java.RequestSpecMergingITest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in io.restassured.itest.java.RequestSpecMergingITest
+[INFO] Running io.restassured.itest.java.ResponseAwareMatcherITest
+14:50:59,635 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:50:59,745 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:50:59,760 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@67dc6b48{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:50:59,760 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@185fe52e{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:50:59,776 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@57f2e67(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:50:59,792 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@41e213b1{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:50:59,792 [main]  INFO Server.doStart:397 - Started @58041ms
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=utf-8
+Content-Length: 1543
+Server: Jetty(9.3.2.v20150730)
+
+{
+    "response": {
+        "status": 200,
+        "startRow": 0,
+        "endRow": 1,
+        "totalRows": 1,
+        "next": "",
+        "data": {
+            "id": "workflow-1",
+            "name": "SampleWorkflow",
+            "tasks": [
+                {
+                    "id": "task-0",
+                    "name": "AWX",
+                    "triggered_by": [
+                        "task-5"
+                    ]
+                },
+                {
+                    "id": "task-1",
+                    "name": "BrainStorming",
+                    "triggered_by": [
+                        "task-2",
+                        "task-5"
+                    ]
+                },
+                {
+                    "id": "task-2",
+                    "name": "OnHold",
+                    "triggered_by": [
+                        "task-0",
+                        "task-4",
+                        "task-7",
+                        "task-8",
+                        "task9"
+                    ]
+                },
+                {
+                    "id": "task-3",
+                    "name": "InvestigateSuggestions",
+                    "triggered_by": [
+                        "task-6"
+                    ]
+                },
+                {
+                    "id": "task-4",
+                    "name": "Mistral",
+                    "triggered_by": [
+                        "task-3"
+                    ]
+                },
+                {
+                    "id": "task-5",
+                    "name": "Ansible",
+                    "triggered_by": [
+                        "task-3"
+                    ]
+                },
+                {
+                    "id": "task-6",
+                    "name": "Integration",
+                    "triggered_by": [
+                        
+                    ]
+                },
+                {
+                    "id": "task-7",
+                    "name": "Tower",
+                    "triggered_by": [
+                        "task-5"
+                    ]
+                },
+                {
+                    "id": "task-8",
+                    "name": "Camunda",
+                    "triggered_by": [
+                        "task-3"
+                    ]
+                },
+                {
+                    "id": "task-9",
+                    "name": "HungOnMistral",
+                    "triggered_by": [
+                        "task-0",
+                        "task-7"
+                    ]
+                },
+                {
+                    "id": "task-10",
+                    "name": "MistralIsChosen",
+                    "triggered_by": [
+                        "task-1"
+                    ]
+                }
+            ]
+        }
+    }
+}
+14:51:00,526 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@185fe52e{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:00,526 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@41e213b1{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:00,526 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@67dc6b48{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.875 s - in io.restassured.itest.java.ResponseAwareMatcherITest
+[INFO] Running io.restassured.itest.java.ResponseITest
+14:51:00,542 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:51:00,620 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:51:00,629 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@63c84d31{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:51:00,629 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@6aa6e27{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:00,645 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@102af1bb(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:51:00,645 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@22875971{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:00,645 [main]  INFO Server.doStart:397 - Started @58898ms
+<videos>
+      <music>
+        <title>Video Title 1 </title>
+        <artist>Artist 1</artist>
+      </music>
+      <music>
+        <title>Video Title 2</title>
+        <artist>Artist 2</artist>
+        <artist>Artist 3</artist>
+      </music>
+    </videos>
+<videos>
+  <music>
+    <title>Video Title 1 </title>
+    <artist>Artist 1</artist>
+  </music>
+  <music>
+    <title>Video Title 2</title>
+    <artist>Artist 2</artist>
+    <artist>Artist 3</artist>
+  </music>
+</videos>
+HTTP/1.1 200 OK
+Content-Type: application/xml;charset=utf-8
+Content-Length: 257
+Server: Jetty(9.3.2.v20150730)
+
+<videos>
+  <music>
+    <title>Video Title 1 </title>
+    <artist>Artist 1</artist>
+  </music>
+  <music>
+    <title>Video Title 2</title>
+    <artist>Artist 2</artist>
+    <artist>Artist 3</artist>
+  </music>
+</videos>
+HTTP/1.1 200 OK
+Content-Type: application/xml;charset=utf-8
+Content-Length: 257
+Server: Jetty(9.3.2.v20150730)
+
+<videos>
+      <music>
+        <title>Video Title 1 </title>
+        <artist>Artist 1</artist>
+      </music>
+      <music>
+        <title>Video Title 2</title>
+        <artist>Artist 2</artist>
+        <artist>Artist 3</artist>
+      </music>
+    </videos>
+<videos>
+  <music>
+    <title>Video Title 1 </title>
+    <artist>Artist 1</artist>
+  </music>
+  <music>
+    <title>Video Title 2</title>
+    <artist>Artist 2</artist>
+    <artist>Artist 3</artist>
+  </music>
+</videos>
+<videos>
+  <music>
+    <title>Video Title 1 </title>
+    <artist>Artist 1</artist>
+  </music>
+  <music>
+    <title>Video Title 2</title>
+    <artist>Artist 2</artist>
+    <artist>Artist 3</artist>
+  </music>
+</videos>
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=utf-8
+Content-Length: 26
+Server: Jetty(9.3.2.v20150730)
+
+{
+    "hello": "Hello Scalatra"
+}
+[Fatal Error] :1:1: Content is not allowed in prolog.
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=utf-8
+Content-Length: 26
+Server: Jetty(9.3.2.v20150730)
+
+{
+    "hello": "Hello Scalatra"
+}
+14:51:01,674 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@6aa6e27{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:01,690 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@22875971{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:01,690 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@63c84d31{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.148 s - in io.restassured.itest.java.ResponseITest
+[INFO] Running io.restassured.itest.java.ResponseTimeITest
+14:51:01,690 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:51:01,752 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:51:01,752 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@15914bb5{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:51:01,752 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@4655b8a1{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:01,768 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@7b332b23(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:51:01,768 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@66a472b9{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:01,768 [main]  INFO Server.doStart:397 - Started @60018ms
+14:51:01,768 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@4655b8a1{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:01,768 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@66a472b9{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:01,783 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@15914bb5{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[WARNING] Tests run: 9, Failures: 0, Errors: 0, Skipped: 9, Time elapsed: 0.078 s - in io.restassured.itest.java.ResponseTimeITest
+[INFO] Running io.restassured.itest.java.RootPathITest
+14:51:01,783 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:51:01,846 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:51:01,862 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@2c1ea7be{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:51:01,862 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@10b05b41{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:01,877 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@2493eec6(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:51:01,877 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@1046ea00{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:01,877 [main]  INFO Server.doStart:397 - Started @60130ms
+14:51:02,705 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@10b05b41{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:02,710 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@1046ea00{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:02,711 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@2c1ea7be{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.928 s - in io.restassured.itest.java.RootPathITest
+[INFO] Running io.restassured.itest.java.SessionIdITest
+14:51:02,711 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:51:02,789 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:51:02,805 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@5df7a065{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:51:02,805 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@3f45dfec{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:02,805 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@7c69e1e1(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:51:02,805 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@7b52b18a{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:02,805 [main]  INFO Server.doStart:397 - Started @61058ms
+14:51:02,899 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@3f45dfec{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:02,899 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@7b52b18a{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:02,914 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@5df7a065{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.187 s - in io.restassured.itest.java.SessionIdITest
+[INFO] Running io.restassured.itest.java.SpecificationBuilderITest
+14:51:02,930 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:51:03,039 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:51:03,055 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@751686aa{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:51:03,055 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@42e44efb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:03,055 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@638977e0(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:51:03,071 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@2dc3ece8{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:03,071 [main]  INFO Server.doStart:397 - Started @61320ms
+14:51:03,952 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@42e44efb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:03,961 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@2dc3ece8{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:03,962 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@751686aa{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[ERROR] Tests run: 30, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.016 s <<< FAILURE! - in io.restassured.itest.java.SpecificationBuilderITest
+[ERROR] supportsSettingLoggingWhenUsingOnlyResponseSpecBuilder(io.restassured.itest.java.SpecificationBuilderITest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodError: io.restassured.builder.ResponseSpecBuilder.log(Lio/restassured/filter/log/LogDetail;)Lio/restassured/builder/ResponseSpecBuilder;
+	at io.restassured.itest.java.SpecificationBuilderITest.supportsSettingLoggingWhenUsingOnlyResponseSpecBuilder(SpecificationBuilderITest.java:413)
+
+[ERROR] requestSpecBuilderSupportsSettingAuthentication(io.restassured.itest.java.SpecificationBuilderITest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method basic(String, String) from the type RestAssured refers to the missing type AuthenticationScheme
+
+	at io.restassured.itest.java.SpecificationBuilderITest.requestSpecBuilderSupportsSettingAuthentication(SpecificationBuilderITest.java:247)
+
+[ERROR] supportsSettingLoggingWhenUsingRequestAndResponseSpecBuilder(io.restassured.itest.java.SpecificationBuilderITest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodError: io.restassured.builder.ResponseSpecBuilder.log(Lio/restassured/filter/log/LogDetail;)Lio/restassured/builder/ResponseSpecBuilder;
+	at io.restassured.itest.java.SpecificationBuilderITest.supportsSettingLoggingWhenUsingRequestAndResponseSpecBuilder(SpecificationBuilderITest.java:392)
+
+[INFO] Running io.restassured.itest.java.SSLITest
+14:51:03,993 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:51:04,087 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:51:04,087 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@29f8134{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:51:04,102 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@77a9ac36{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:04,102 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@3c743d40(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:51:04,102 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@5aac6f9f{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:04,102 [main]  INFO Server.doStart:397 - Started @62355ms
+14:51:10,433 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@77a9ac36{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:10,445 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@5aac6f9f{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:10,445 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@29f8134{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[ERROR] Tests run: 22, Failures: 0, Errors: 3, Skipped: 2, Time elapsed: 6.468 s <<< FAILURE! - in io.restassured.itest.java.SSLITest
+[ERROR] usingStaticallyConfiguredCertificateAuthenticationWorks(io.restassured.itest.java.SSLITest)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	AuthenticationScheme cannot be resolved to a type
+	The method certificate(String, String, CertificateAuthSettings) from the type RestAssured refers to the missing type AuthenticationScheme
+
+	at io.restassured.itest.java.SSLITest.usingStaticallyConfiguredCertificateAuthenticationWorks(SSLITest.java:80)
+
+[ERROR] usingStaticallyConfiguredCertificateAuthenticationWithIllegalHostNameInCertDoesntWork(io.restassured.itest.java.SSLITest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<javax.net.ssl.SSLException> but was<java.lang.Error>
+	at io.restassured.itest.java.SSLITest.usingStaticallyConfiguredCertificateAuthenticationWithIllegalHostNameInCertDoesntWork(SSLITest.java:90)
+
+[ERROR] usingStaticallyConfiguredCertificateAuthenticationWithIllegalHostNameInCertWorksWhenSSLConfigIsConfiguredToAllowAllHostNames(io.restassured.itest.java.SSLITest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	AuthenticationScheme cannot be resolved to a type
+	The method certificate(String, String) from the type RestAssured refers to the missing type AuthenticationScheme
+
+	at io.restassured.itest.java.SSLITest.usingStaticallyConfiguredCertificateAuthenticationWithIllegalHostNameInCertWorksWhenSSLConfigIsConfiguredToAllowAllHostNames(SSLITest.java:101)
+
+[INFO] Running io.restassured.itest.java.stress.StressITest
+[ERROR] Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.537 s <<< FAILURE! - in io.restassured.itest.java.stress.StressITest
+[ERROR] stressWithRestAssuredPost(io.restassured.itest.java.stress.StressITest)  Time elapsed: 0.537 s  <<< ERROR!
+java.net.BindException: Address already in use: bind
+	at io.restassured.itest.java.stress.StressITest.setUp(StressITest.java:53)
+
+[ERROR] stressWithRestAssuredGetManualClose(io.restassured.itest.java.stress.StressITest)  Time elapsed: 0 s  <<< ERROR!
+java.net.BindException: Address already in use: bind
+	at io.restassured.itest.java.stress.StressITest.setUp(StressITest.java:53)
+
+[ERROR] stressWithRestAssuredPostWhenSameHttpClientInstanceIsReused(io.restassured.itest.java.stress.StressITest)  Time elapsed: 0 s  <<< ERROR!
+java.net.BindException: Address already in use: bind
+	at io.restassured.itest.java.stress.StressITest.setUp(StressITest.java:53)
+
+[ERROR] stressWithRestAssuredGet(io.restassured.itest.java.stress.StressITest)  Time elapsed: 0 s  <<< ERROR!
+java.net.BindException: Address already in use: bind
+	at io.restassured.itest.java.stress.StressITest.setUp(StressITest.java:53)
+
+[INFO] Running io.restassured.itest.java.TextAndPathParsingCombinedITest
+14:51:11,029 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:51:11,107 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:51:11,107 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@24f90aff{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:51:11,107 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@7252bdb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:11,107 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@25ea068e(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:51:11,122 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@4cd8db31{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:11,122 [main]  INFO Server.doStart:397 - Started @69370ms
+14:51:11,404 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@7252bdb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:11,404 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@4cd8db31{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:11,404 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@24f90aff{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.375 s - in io.restassured.itest.java.TextAndPathParsingCombinedITest
+[INFO] Running io.restassured.itest.java.TypeObjectExceptionMappingITest
+14:51:11,419 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:51:11,466 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:51:11,472 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@34070bd2{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:51:11,472 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@1e7d3d87{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:11,472 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@1dd76982(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:51:11,472 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@7e76a66f{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:11,472 [main]  INFO Server.doStart:397 - Started @69728ms
+14:51:11,488 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@1e7d3d87{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:11,503 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@7e76a66f{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:11,503 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@34070bd2{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 s - in io.restassured.itest.java.TypeObjectExceptionMappingITest
+[INFO] Running io.restassured.itest.java.TypeObjectMappingITest
+14:51:11,582 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:51:11,644 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:51:11,644 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@21e39b82{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:51:11,660 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@3ff0878{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:11,660 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@5f9a8ddc(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:51:11,660 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@1280bae3{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:11,660 [main]  INFO Server.doStart:397 - Started @69916ms
+14:51:11,816 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@3ff0878{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:11,816 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@1280bae3{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:11,816 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@21e39b82{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.297 s - in io.restassured.itest.java.TypeObjectMappingITest
+[INFO] Running io.restassured.itest.java.UnicodeITest
+14:51:11,832 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:51:11,894 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:51:11,894 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@29c80149{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:51:11,894 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@14ad42{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:11,910 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@608b906d(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:51:11,910 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@173cfb01{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:11,910 [main]  INFO Server.doStart:397 - Started @70158ms
+14:51:12,050 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@14ad42{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:12,050 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@173cfb01{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:12,066 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@29c80149{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.141 s - in io.restassured.itest.java.UnicodeITest
+[INFO] Running io.restassured.itest.java.URLEncodingITest
+14:51:12,082 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:51:12,144 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:51:12,160 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@7b795db7{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:51:12,160 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@586486c{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:12,160 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@b849fa6(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:51:12,175 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@7fbbdd8a{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:12,175 [main]  INFO Server.doStart:397 - Started @70421ms
+14:51:14,051 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@586486c{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:14,060 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@7fbbdd8a{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:14,061 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@7b795db7{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[WARNING] Tests run: 12, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 1.979 s - in io.restassured.itest.java.URLEncodingITest
+[INFO] Running io.restassured.itest.java.URLEncodingParamITest
+[WARNING] Tests run: 2, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0 s - in io.restassured.itest.java.URLEncodingParamITest
+[INFO] Running io.restassured.itest.java.URLITest
+14:51:14,076 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:51:14,170 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:51:14,186 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@2ed7978c{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:51:14,186 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@73ebf6a7{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:14,201 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@30665461(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:51:14,201 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@45fe5f0e{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:14,201 [main]  INFO Server.doStart:397 - Started @72452ms
+14:51:15,911 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@73ebf6a7{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:15,913 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@45fe5f0e{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:15,914 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@2ed7978c{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 48, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.822 s - in io.restassured.itest.java.URLITest
+[INFO] Running io.restassured.itest.java.XMLGetITest
+14:51:15,930 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:51:16,008 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:51:16,008 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@433b1597{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:51:16,024 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@63a58803{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:16,024 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@5d5cd210(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:51:16,024 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@14d18029{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:16,024 [main]  INFO Server.doStart:397 - Started @74283ms
+14:51:17,165 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@63a58803{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:17,179 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@14d18029{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:17,180 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@433b1597{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.25 s - in io.restassured.itest.java.XMLGetITest
+[INFO] Running io.restassured.itest.java.XMLPostITest
+14:51:17,195 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:51:17,258 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:51:17,274 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@b842275{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:51:17,274 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@33399052{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:17,274 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@11c25846(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:51:17,274 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@460b77d6{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:17,274 [main]  INFO Server.doStart:397 - Started @75529ms
+14:51:17,508 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@33399052{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:17,508 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@460b77d6{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:17,508 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@b842275{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.313 s - in io.restassured.itest.java.XMLPostITest
+[INFO] Running io.restassured.itest.java.XMLValidationITest
+14:51:17,524 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:51:17,586 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:51:17,586 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@3ef089ce{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:51:17,602 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@3340ce58{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:17,602 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@14499b52(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:51:17,602 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@41d5931b{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:17,602 [main]  INFO Server.doStart:397 - Started @75854ms
+14:51:18,539 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@3340ce58{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:18,539 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@41d5931b{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:18,544 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@3ef089ce{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[ERROR] Tests run: 10, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 1.02 s <<< FAILURE! - in io.restassured.itest.java.XMLValidationITest
+[ERROR] throwsExceptionWhenXsdValidationFails(io.restassured.itest.java.XMLValidationITest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method matchesXsd(InputStream) from the type RestAssuredMatchers refers to the missing type XmlXsdMatcher
+
+	at io.restassured.itest.java.XMLValidationITest.throwsExceptionWhenXsdValidationFails(XMLValidationITest.java:73)
+
+[ERROR] validatesXsdString(io.restassured.itest.java.XMLValidationITest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method matchesXsd(String) from the type RestAssuredMatchers refers to the missing type XmlXsdMatcher
+
+	at io.restassured.itest.java.XMLValidationITest.validatesXsdString(XMLValidationITest.java:63)
+
+[ERROR] throwsExceptionWhenUsingDtdForXsd(io.restassured.itest.java.XMLValidationITest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method matchesXsd(InputStream) from the type RestAssuredMatchers refers to the missing type XmlXsdMatcher
+
+	at io.restassured.itest.java.XMLValidationITest.throwsExceptionWhenUsingDtdForXsd(XMLValidationITest.java:118)
+
+[ERROR] validatesXsdInputStream(io.restassured.itest.java.XMLValidationITest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method matchesXsd(InputStream) from the type RestAssuredMatchers refers to the missing type XmlXsdMatcher
+
+	at io.restassured.itest.java.XMLValidationITest.validatesXsdInputStream(XMLValidationITest.java:55)
+
+[INFO] Running io.restassured.itest.java.XPathITest
+14:51:18,544 [main]  INFO Server.doStart:345 - jetty-9.3.2.v20150730
+14:51:18,607 [main]  INFO StandardDescriptorProcessor.visitServlet:279 - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+14:51:18,607 [main]  INFO ContextHandler.doStart:738 - Started o.e.j.w.WebAppContext@71f8ce0e{/,file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/scalatra-webapp/src/main/webapp/,AVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+14:51:18,622 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@58235ebb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:18,622 [main]  INFO SslContextFactory.doStart:433 - x509={org.restassured=tomcat} wild={} alias=null for SslContextFactory@4fd92289(file:///C:/Users/ramachandra.marishet/git/rest-assured/examples/rest-assured-itest-java/target/test-classes/jetty_localhost_server.jks,null)
+14:51:18,622 [main]  INFO ServerConnector.doStart:270 - Started ServerConnector@29237016{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:18,622 [main]  INFO Server.doStart:397 - Started @76880ms
+14:51:18,747 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@58235ebb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:51:18,747 [main]  INFO ServerConnector.doStop:310 - Stopped ServerConnector@29237016{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+14:51:18,747 [main]  INFO ContextHandler.doStop:848 - Stopped o.e.j.w.WebAppContext@71f8ce0e{/,null,UNAVAILABLE}{C:\Users\ramachandra.marishet\git\rest-assured/examples/scalatra-webapp/src/main/webapp}
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.203 s - in io.restassured.itest.java.XPathITest
+14:51:18,763 [Thread-642]  INFO DefaultHttpProxyServer.stop:475 - Shutting down proxy
+14:51:18,763 [Thread-642]  INFO DefaultHttpProxyServer.stop:477 - Already stopped
+14:51:18,763 [Thread-631]  INFO DefaultHttpProxyServer.stop:475 - Shutting down proxy
+14:51:18,779 [Thread-631]  INFO DefaultHttpProxyServer.stop:477 - Already stopped
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   LoggingITest.logsMultiPartParamsOnLogAll:1188 
+Expected: (a string starting with "HTTP/1.1 200 OK\r\nContent-Type: text/plain;charset=utf-8\r\nContent-Length: " and a string ending with "Server: Jetty(9.3.2.v20150730)\r\n\r\n<!--\r\n  ~ Copyright 2013 the original author or authors.\r\n  ~\r\n  ~ Licensed under the Apache License, Version 2.0 (the \"License\");\r\n  ~ you may not use this file except in compliance with the License.\r\n  ~ You may obtain a copy of the License at\r\n  ~\r\n  ~        http://www.apache.org/licenses/LICENSE-2.0\r\n  ~\r\n  ~ Unless required by applicable law or agreed to in writing, software\r\n  ~ distributed under the License is distributed on an \"AS IS\" BASIS,\r\n  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n  ~ See the License for the specific language governing permissions and\r\n  ~ limitations under the License.\r\n  -->\r\n<xs:schema xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" elementFormDefault=\"qualified\">\r\n  <xs:element name=\"records\">\r\n    <xs:complexType>\r\n      <xs:sequence>\r\n        <xs:element maxOccurs=\"unbounded\" ref=\"car\"/>\r\n      </xs:sequence>\r\n    </xs:complexType>\r\n  </xs:element>\r\n  <xs:element name=\"car\">\r\n    <xs:complexType>\r\n      <xs:sequence>\r\n        <xs:element ref=\"country\"/>\r\n        <xs:element ref=\"record\"/>\r\n      </xs:sequence>\r\n      <xs:attribute name=\"make\" use=\"required\" type=\"xs:NCName\"/>\r\n      <xs:attribute name=\"name\" use=\"required\"/>\r\n      <xs:attribute name=\"year\" use=\"required\" type=\"xs:integer\"/>\r\n    </xs:complexType>\r\n  </xs:element>\r\n  <xs:element name=\"country\" type=\"xs:string\"/>\r\n  <xs:element name=\"record\">\r\n    <xs:complexType mixed=\"true\">\r\n      <xs:attribute name=\"type\" use=\"required\" type=\"xs:NCName\"/>\r\n    </xs:complexType>\r\n  </xs:element>\r\n</xs:schema>\r\n")
+     but: a string ending with "Server: Jetty(9.3.2.v20150730)\r\n\r\n<!--\r\n  ~ Copyright 2013 the original author or authors.\r\n  ~\r\n  ~ Licensed under the Apache License, Version 2.0 (the \"License\");\r\n  ~ you may not use this file except in compliance with the License.\r\n  ~ You may obtain a copy of the License at\r\n  ~\r\n  ~        http://www.apache.org/licenses/LICENSE-2.0\r\n  ~\r\n  ~ Unless required by applicable law or agreed to in writing, software\r\n  ~ distributed under the License is distributed on an \"AS IS\" BASIS,\r\n  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n  ~ See the License for the specific language governing permissions and\r\n  ~ limitations under the License.\r\n  -->\r\n<xs:schema xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" elementFormDefault=\"qualified\">\r\n  <xs:element name=\"records\">\r\n    <xs:complexType>\r\n      <xs:sequence>\r\n        <xs:element maxOccurs=\"unbounded\" ref=\"car\"/>\r\n      </xs:sequence>\r\n    </xs:complexType>\r\n  </xs:element>\r\n  <xs:element name=\"car\">\r\n    <xs:complexType>\r\n      <xs:sequence>\r\n        <xs:element ref=\"country\"/>\r\n        <xs:element ref=\"record\"/>\r\n      </xs:sequence>\r\n      <xs:attribute name=\"make\" use=\"required\" type=\"xs:NCName\"/>\r\n      <xs:attribute name=\"name\" use=\"required\"/>\r\n      <xs:attribute name=\"year\" use=\"required\" type=\"xs:integer\"/>\r\n    </xs:complexType>\r\n  </xs:element>\r\n  <xs:element name=\"country\" type=\"xs:string\"/>\r\n  <xs:element name=\"record\">\r\n    <xs:complexType mixed=\"true\">\r\n      <xs:attribute name=\"type\" use=\"required\" type=\"xs:NCName\"/>\r\n    </xs:complexType>\r\n  </xs:element>\r\n</xs:schema>\r\n" was "HTTP/1.1 200 OK
+Content-Type: text/plain;charset=utf-8
+Content-Length: 1512
+Server: Jetty(9.3.2.v20150730)
+
+<!--
+  ~ Copyright 2013 the original author or authors.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="records">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="car"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="car">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="country"/>
+        <xs:element ref="record"/>
+      </xs:sequence>
+      <xs:attribute name="make" use="required" type="xs:NCName"/>
+      <xs:attribute name="name" use="required"/>
+      <xs:attribute name="year" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="country" type="xs:string"/>
+  <xs:element name="record">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+"
+[ERROR] Errors: 
+[ERROR]   AuthenticationITest.basicAuthenticationUsingDefault:49  Unresolved compilation...
+[ERROR]   AuthenticationITest.canOverridePreemptiveBasicAuthFromStaticConfiguration:374 
+[ERROR]   AuthenticationITest.explicitExcludeOfBasicAuthenticationWhenUsingDefault:59  U...
+[ERROR]   AuthenticationITest.explicitExcludeOfPreemptiveBasicAuthenticationWhenUsingDefault:94 
+[ERROR]   AuthenticationITest.formAuthenticationUsingDefaultWithLoginPageParsing:320  Un...
+[ERROR]   AuthenticationITest.formAuthenticationUsingDefaultWithSpringAuthConf:335  Unre...
+[ERROR]   AuthenticationITest.formAuthenticationUsingSpringAuthConfDefinedInRequestSpec:241 
+[ERROR]   AuthenticationITest.preemptiveBasicAuthenticationUsingDefault:84  Unresolved c...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   FilterITest.<init>:252  Unresolved compilation problems: 
+	The method assertTh...
+[ERROR]   GivenWhenThenXsdITest.possibleToSpecifyAResourceResolverWhenMatchingXsd:87  Un...
+[ERROR]   GivenWhenThenXsdITest.validatesXsdInputStream:65  Unresolved compilation probl...
+[ERROR]   GivenWhenThenXsdITest.validatesXsdString:48  Unresolved compilation problem: 
+...
+[ERROR]   GivenWhenThenXsdITest.validatesXsdStringAndPath:73  Unresolved compilation pro...
+[ERROR]   GivenWhenThenXsdITest.validatesXsdStringInClasspathWhenPathDoesntStartWithSlash:58 
+[ERROR]   GivenWhenThenXsdITest.validatesXsdStringInClasspathWhenPathStartsWithSlash:53 
+[ERROR]   LoggingITest.logUsingResponseSpecLogDetail:102 NoSuchMethod io.restassured.spe...
+[ERROR]   LoggingITest.loggingByResponseSpecLogDetailNonErrors:158 NoSuchMethod io.resta...
+[ERROR]   OAuthITest.oauth2_works_with_non_preemptive_header_signing:102 »  Unresolved c...
+[ERROR]   SSLITest.usingStaticallyConfiguredCertificateAuthenticationWithIllegalHostNameInCertDoesntWork » 
+[ERROR]   SSLITest.usingStaticallyConfiguredCertificateAuthenticationWithIllegalHostNameInCertWorksWhenSSLConfigIsConfiguredToAllowAllHostNames:101 
+[ERROR]   SSLITest.usingStaticallyConfiguredCertificateAuthenticationWorks:80  Unresolve...
+[ERROR]   SpecificationBuilderITest.requestSpecBuilderSupportsSettingAuthentication:247 
+[ERROR]   SpecificationBuilderITest.supportsSettingLoggingWhenUsingOnlyResponseSpecBuilder:413 NoSuchMethod
+[ERROR]   SpecificationBuilderITest.supportsSettingLoggingWhenUsingRequestAndResponseSpecBuilder:392 NoSuchMethod
+[ERROR]   XMLValidationITest.throwsExceptionWhenUsingDtdForXsd:118  Unresolved compilati...
+[ERROR]   XMLValidationITest.throwsExceptionWhenXsdValidationFails:73  Unresolved compil...
+[ERROR]   XMLValidationITest.validatesXsdInputStream:55  Unresolved compilation problem:...
+[ERROR]   XMLValidationITest.validatesXsdString:63  Unresolved compilation problem: 
+	Th...
+[ERROR]   StressITest.setUp:53 » Bind Address already in use: bind
+[ERROR]   StressITest.setUp:53 » Bind Address already in use: bind
+[ERROR]   StressITest.setUp:53 » Bind Address already in use: bind
+[ERROR]   StressITest.setUp:53 » Bind Address already in use: bind
+[INFO] 
+[ERROR] Tests run: 1008, Failures: 1, Errors: 63, Skipped: 25
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:38 min
+[INFO] Finished at: 2018-12-21T14:51:19+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.0:test (surefire-itest) on project rest-assured-itest-java: There are test failures.
+[ERROR] 
+[ERROR] Please refer to C:\Users\ramachandra.marishet\git\rest-assured\examples\rest-assured-itest-java\target\surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

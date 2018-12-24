@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="YakTest(failed)">
+    <classes>
+      <class name="services.Order">
+        <methods>
+          <include name="begin"/>
+          <include name="validateRemainStock"/>
+          <include name="orderPlacing"/>
+        </methods>
+      </class> <!-- services.Order -->
+      <class name="services.Herd">
+        <methods>
+          <include name="validateReloadHerd"/>
+          <include name="begin"/>
+          <include name="herd"/>
+          <include name="reloadHerd"/>
+        </methods>
+      </class> <!-- services.Herd -->
+      <class name="services.Stock">
+        <methods>
+          <include name="begin"/>
+          <include name="checkStock_day_1"/>
+          <include name="checkStock_day_2"/>
+        </methods>
+      </class> <!-- services.Stock -->
+      <class name="services.ServerStatus">
+        <methods>
+          <include name="begin"/>
+          <include name="checkServerUP"/>
+        </methods>
+      </class> <!-- services.ServerStatus -->
+    </classes>
+  </test> <!-- YakTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

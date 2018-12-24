@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite_YakShop" verbose="2" parallel="false">
+	<test name="TestServerStatus">
+		<classes>
+			<class name="com.test.services.TestServerStatus" />
+		</classes>
+	</test>
+	<test name="TestStock">
+		<classes>
+			<class name="com.test.services.TestStock" />
+		</classes>
+	</test>
+	<test name="TestOrder">
+		<classes>
+			<class name="com.test.services.TestOrder" />
+		</classes>
+	</test>
+	<test name="TestHerd">
+		<classes>
+			<class name="com.test.services.TestHerd" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
